@@ -1,0 +1,63 @@
+{
+  "places": [
+    {
+      "id": "1",
+      "place": "Kozhikode",
+      "country": "India",
+      "description": "A charming coastal city in Kerala, is known for its historic beaches, waterfalls and vibrant culture. Major attractions include Kozhikode beach, Kappad, Beypore and Thusharagiri Waterfalls",
+      "Status": "Visited",
+      "status": "not visited"
+    },
+    {
+      "id": "2",
+      "place": "Munnar",
+      "country": "India",
+      "description": "A scenic hill station in Kerala, famous for its tea plantations, misty mountains, and pleasant climate. Popular spots include Eravikulam National Park and Mattupetty Dam.",
+      "Status": "Wishlist",
+      "status": "not visited"
+    },
+    {
+      "id": "9",
+      "place": "Singapore",
+      "country": "Singapore",
+      "description": "A clean and vibrant city-state known for its gardens, futuristic architecture, and multicultural attractions like Marina Bay Sands and Gardens by the Bay.",
+      "Status": "Wishlist",
+      "status": "not visited"
+    },
+    {
+      "id": "d26f",
+      "place": "manjeri",
+      "country": "india",
+      "description": "xtgx ygnbtrsjy",
+      "status": "visited"
+    },
+    {
+      "id": "e801",
+      "place": "manjeri",
+      "country": "india",
+      "description": "xtgx ygnbtrsjy",
+      "status": "visited"
+    },
+    {
+      "id": "fb5b",
+      "place": "farooque",
+      "country": "pakistan",
+      "description": "iuynhoifhmbkmfsgkjbth",
+      "status": "not visited"
+    },
+    {
+      "id": "8b43",
+      "place": "Munnar",
+      "country": "india",
+      "description": "hfbgeubtveuwr",
+      "status": "visited"
+    },
+    {
+      "id": "cb87",
+      "place": "Munnar",
+      "country": "india",
+      "description": "yrfu6yr67",
+      "status": "visited"
+    }
+  ]
+}
