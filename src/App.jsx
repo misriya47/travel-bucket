@@ -1,14 +1,15 @@
 import { useState } from 'react'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './components/Home.Jsx'
 import HomePage from './components/HomePage'
 import Create from './components/Create'
 import Update from './components/Update'
 import Read from './components/Read'
 import Header from './pages/Header'
 import Footer from './pages/Footer'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Home from './components/Home';
+
 
 
 
