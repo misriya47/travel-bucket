@@ -14,7 +14,7 @@ function Home() {
   const handleDelete = (id) => {
     const confirm = window.confirm("🗑️ Are you sure you want to delete this place?");
     if (confirm) {
-      axios.delete('https://patient-list-backend.onrender.com/places /' + id)
+      axios.delete('https://patient-list-backend.onrender.com/places/' + id)
         .then(() => {
           setData(prev => prev.filter(item => item.id !== id));
         })
