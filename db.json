@@ -58,6 +58,13 @@
       "country": "india",
       "description": "yrfu6yr67",
       "status": "visited"
+    },
+    {
+      "id": "ddfa",
+      "place": "attakkund",
+      "country": "india",
+      "description": "near attakkund palam",
+      "status": "not visited"
     }
   ]
 }

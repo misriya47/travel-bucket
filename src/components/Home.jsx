@@ -6,7 +6,7 @@ function Home() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:3000/places')
+    axios.get('https://patient-list-backend.onrender.com/places ')
       .then(res => setData(res.data))
       .catch(err => console.log(err));
   }, []);
@@ -14,7 +14,7 @@ function Home() {
   const handleDelete = (id) => {
     const confirm = window.confirm("🗑️ Are you sure you want to delete this place?");
     if (confirm) {
-      axios.delete('http://localhost:3000/places/' + id)
+      axios.delete('https://patient-list-backend.onrender.com/places /' + id)
         .then(() => {
           setData(prev => prev.filter(item => item.id !== id));
         })

@@ -15,7 +15,7 @@ function Create() {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    axios.post('http://localhost:3000/places', values)
+    axios.post('https://patient-list-backend.onrender.com/places ', values)
       .then(res => {
         console.log(res);
         alert('✅ Place added successfully!');

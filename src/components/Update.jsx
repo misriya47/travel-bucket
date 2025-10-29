@@ -17,14 +17,14 @@ function Update() {
 
   const navigate = useNavigate();
   useEffect(() => {
-    axios.get('http://localhost:3000/places/' + id)
+    axios.get('https://patient-list-backend.onrender.com/places /' + id)
       .then(res => setValues(res.data))
       .catch(err => console.log(err))
   }, [])
 
   const handleUpdate = (event) => {
     event.preventDefault();
-    axios.put('http://localhost:3000/places/' + id, values)
+    axios.put('https://patient-list-backend.onrender.com/places /' + id, values)
       .then(res => {
         console.log(res);
         navigate('/')
