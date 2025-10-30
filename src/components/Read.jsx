@@ -8,7 +8,7 @@ function Read() {
   const { id } = useParams()
 
   useEffect(() => {
-    axios.get(`https://patient-list-backend.onrender.com/places /${id}`)
+    axios.get(`https://patient-list-backend.onrender.com/places/${id}`)
       .then(res => setData(res.data))
       .catch(err => console.log(err))
   }, [id])
